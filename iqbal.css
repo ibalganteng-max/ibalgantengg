@@ -1,0 +1,15 @@
+body {
+    background-color: purple;
+}
+
+.iqbal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.iqbal h1 {
+    color: red;
+    background-color: blue;
+    cursor: grab;
+}

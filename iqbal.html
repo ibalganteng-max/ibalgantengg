@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I Love You</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+            background-color: pink;
+            font-family: Arial, sans-serif;
+        }
+        button {
+            padding: 15px 30px;
+            font-size: 20px;
+            background-color: red;
+            color: white;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+        button:hover {
+            background-color: darkred;
+        }
+        #image-container {
+            display: none;
+            margin-top: 20px;
+        }
+        img {
+            width: 300px;
+            border-radius: 15px;
+        }
+    </style>
+</head>
+<body>
+    <button onclick="showImage()">I Love You</button>
+    <div id="image-container">
+        <img src="photo/2025030622541516.jpg" alt="Love Image">
+    </div>
+
+    <script>
+        function showImage() {
+            document.getElementById('image-container').style.display = 'block';
+        }
+    </script>
+</body>
+</html>
